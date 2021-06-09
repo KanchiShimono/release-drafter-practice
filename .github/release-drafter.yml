@@ -1,5 +1,6 @@
 name-template: "release-drafter-practice $NEXT_PATCH_VERSION"
 tag-template: "v$NEXT_PATCH_VERSION"
+version-template: "v$MAJOR.$MINOR.$PATCH"
 change-template: "- $TITLE (#$NUMBER) @$AUTHOR"
 template: |
   ## Changes
